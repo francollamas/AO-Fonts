@@ -1,0 +1,45 @@
+* {
+    color-transparente: rgba(0, 0, 0, 0);
+    color-blanco-suave: #EAEAEA;
+    color-logo-oscuro: #1F2E44;
+    color-logo-oscuro-resaltado: #23354F;
+    color-logo-claro: #2E708C;
+    sombra-suave: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 10, 0.5, 0.0, 0.0);
+}
+
+.base-trasparente {
+    -fx-background-color: color-transparente;
+}
+
+.base-solida {
+    -fx-background-color: #1f2e44;
+    -fx-effect: sombra-suave;
+}
+
+.base-logo {
+    -fx-effect: sombra-suave;
+}
+
+.jfx-text-field, .jfx-password-field  {
+    -fx-text-inner-color:  color-blanco-suave;
+    -fx-prompt-text-fill:  color-blanco-suave;
+    -jfx-focus-color:  WHITE;
+    -jfx-unfocus-color:  #2e708c;
+    -fx-font-size: 20px;
+}
+
+.jfx-text-field:hover, .jfx-password-field:hover {
+    -fx-background-color: #23354f;
+}
+
+.jfx-button {
+    -jfx-button-type: RAISED;
+    -fx-background-color: #2e708c;
+    -fx-text-fill: WHITE;
+    -fx-font-size: 22px;
+}
+
+.jfx-button:hover {
+    -fx-scale-y: 1.05;
+    -fx-scale-x: 1.05;
+}
